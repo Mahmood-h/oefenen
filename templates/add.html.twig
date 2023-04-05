@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <h1 class="text-center">Add genre</h1>
+            {{ form_start(add, {'attr':{'novalidate':'novalidate'}}) }}
+            {{ form_widget(add) }}
+            {{ form_end(add) }}
+        </div>
+    </div>
+</div>
+{% endblock %}
